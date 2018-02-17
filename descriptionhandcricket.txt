@@ -1,0 +1,31 @@
+ Project Description :
+
+                                Everyone likes to play and watch cricket.Now here is the code for playing hand cricket.
+                        Initially two players as player 1 and player 2 start the game.The toss decides which player have to 
+                        bat and bowl.Until a player Won the toss Follow the Output and give whatever it asks you to give.
+                        Then the Player who won the toss chooses either to Bat or to Bowl.The Player who chose batting 
+                        and bowling has to proceed enter ky one by one,Where System will generate Random number as 
+                        runs for both players.Player 1 runs keeps on adding until his runs equals to player 2 runs.Finally
+                        When Player 1 is Out.Till then his runs are his final Score.The Same process will be Conducted for 
+                        player.Finally whoever is having Highest Score is the Winner.
+
+                      Header files used :
+                               
+                              *  #include<stdio.h>
+                              *  #include<stdlib.h>
+                              *  #include<string.h>
+                              *  #include<time.h> - used to maipulate date and time.
+                    
+                     Special functions used :
+                               
+                              *  srand()
+
+                              *  Use of srand() :
+                   
+                                            For Example: Player 1 Won the Toss And Chose Batting.Then When Player 1 Press Enter Key,
+                    a score will be generated for Player 1. Suppose runs are 5 So Player 1 Score=5.Then Player 2 Also Presses Enter 
+                    key.Then if he got a Score of 4.So Player 2 Score =4.As Player 1 Score is not equal to player 2 Score,then Player
+                   1 is not out and his score will be 5 after 1st ball.In 2nd ball Player 1 got 3 runs and Player 2 got 4.Since again both are
+                   not equal.Player 1 Score=5+3=8.If in the 3rd Ball Player 1 got 4 runs and Player 2 also got 4 runs Then Player 1 
+                   Score is equal to Player 2's Score Then Player 1 is Out. Then Final Score of player 1 is 8 runs.The Same Process is
+                  done for Player 2.So Finaly who ever got more score is Winner.
